@@ -30,29 +30,3 @@ describe("Browser Commands ", () => {
 
 
 
-/*
-describe("Home", () =>{
-it("Open URL & Pause" , () => {
-  
-  browser.url('https://sandbox.akira.md/szyslak/');
-  browser.pause(500000);
-  //browser.setValue('input[id="credentials-email"]', 'muhammad+test2@akira.md');
-  //browser.setValue('input[name="password"]', 'Tester123456#');
- // browser.click('.button=Sign in');
-
-});
-});
-
-
-
-/*describe("Home", () =>{
-it("Open URL" , () => {
-
-    browser.url('https://sandbox.akira.md/szyslak');
-    browser.pause(50000);
-    console.log(browser.getTitle());
-    const search = ('//input[id="credentials-email"]');
-    search.setValue('muhammad+test1@akira.md');
-   
- });
-  }); */

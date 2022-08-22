@@ -18,11 +18,20 @@ describe("Browser Commands ", () => {
           //Find Heading Element
           const headingE = await $('//header//h1');
 
-          //get Text
+          //get Text/Heading of the Page
           const headingT = await headingE.getText();
           //Assert the Text
           await expect(headingT).toEqual('Welcome to TELUS Health Virtual Care');
-  });
+
+          //Start a Consult
+          await $('//button[@id="start-or-continue-consult"]').click();
+
+          //Assertion
+          //consult_URL_Text & Title
+          await expect(browser).toHaveUrlContaining('consults');
+          console.log(browser.getTitle());
+
+            });
 });
 
 

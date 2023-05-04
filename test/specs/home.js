@@ -5,8 +5,8 @@ describe("Browser Commands ", () => {
 
                 console.log(browser.getTitle());
         
-          await $('//input[@id="credentials-email"]').setValue('muhammad+test1@akira.md');
-          await $('//input[@id="credentials-password"]').setValue('Tester123456#');
+          await $('//input[@id="credentials-email"]').setValue('abc@baa.caom');
+          await $('//input[@id="credentials-password"]').setValue('nnnnnn');
           await $('//button[@id="credentials-submit"]').click();
                   
         
